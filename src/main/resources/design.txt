@@ -1,0 +1,36 @@
+SpaceMap
+
+An embedded tomcay of springboot was used which enable one to run the program as a java application
+
+At the beginning of the app, data will be stored into Derby database as per instructions and a @PostContruct annotation
+has been used to make this possible without the use of endpoints.
+
+
+Endpoints:
+1- To view all the planets
+http://localhost:8080/listPlanets
+
+2-  To calculate the shortest distance between two planets
+http://localhost:8080/calculateDistance
+
+Project Design and Tools Used;
+1. Spring Boot framework.
+2. Dependency and build management - maven.
+3. Apache POI for importing the data from excel sheet.
+4. Embedded database - Apache Derby.
+5. spring-data-jpa to persist data to the database.
+6. Hibernate for Entity management.
+7. Front-end spring MVC(JSP) and bootstrap for styling
+8. Servlet container - Apache tomcat.
+
+Areas that could implement:
+
+1. Exception Handling with resource bundle for error messages.
+2. Logging could be implemented
+3. Method and class comments for better unstanding of the code.
+4. Good UX and UI design
+
+
+
+
+
